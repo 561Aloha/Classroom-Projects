@@ -1,0 +1,41 @@
+""" This is a quiz game project with basic python programming skills. """
+
+print ("Welcome!")
+playing = input("what to play a game? ")
+
+if playing != "yes" or "sure" "yea":
+  quit()
+else:
+  print("Lets play! :)")
+
+
+def game_one():
+  total = 0
+  answer = str(input("what does CPU stand for: "))
+  if answer.lower() == "central processing unit":
+    print ("correct!")
+    total += 1
+  else:
+    print ("incorrect!")
+
+  answer = str(input("what does GPU stand for: \n
+  A. Great Program Upload! \n
+  B. Graphics Processing Unit \n
+  C. Gigabyte Processor Unit 
+  "))
+  if answer.lower() == "b" :
+    print ("correct!")
+    total += 1
+  else:
+    print ("incorrect!")
+  
+  answer = str(input("True or False: The Sky is Blue: "))
+  if answer.lower() == "true" and "t" and "yes": 
+    print ("correct!")
+    total += 1
+  else:
+    print ("incorrect!")
+
+  return total
+
+print ("you got " + str(game_one()) + " right!")
